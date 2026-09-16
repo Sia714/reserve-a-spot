@@ -1,31 +1,30 @@
 # reserve-a-spot
 
-## Milestone 1 — Foundation & booking backend — 2 hours
+## Milestone 1 — Foundation & booking backend — 2 hours(actual- 3 hours)
 
-[x] Project setup(45 mins)
-[x] MySQL database(+26)
-[] Schema + migrations(+23+)
-[] Seed four sessions + three users
-[] API structure
-[] Booking/cancellation business logic
-[] Concurrency strategy
+[x] Project setup
+[x] MySQL database
+[x] Schema + migrations
+[x] Seed four sessions + three users(+1hr)
+[x] API structure
+[x] Booking/cancellation business logic
+[x] Concurrency strategy
 
-## Milestone 2 — UI & complete user journey — 2 hours
+## Milestone 2 — UI & complete user journey — 2 hours(actual 1.5 hours)
 
-[] Session browsing
-[] Demo-user selector
-[] Booking
-[] My bookings
-[] Cancellation
-[] Loading/error/empty/full states
-[] Mobile layout
+[x] Session browsing
+[x] Demo-user selector
+[x] Booking
+[x] My bookings
+[x] Cancellation
+[x] Loading/error/empty/full states
+[x] Mobile layout
 
-## Milestone 3 — Verification & handover — 2 hours
+## Milestone 3 — Verification & handover — 2 hours(actual 1 hour)
 
-[] Automated behavioral tests
-[] Concurrency/race test against real MySQL
-[] Validation/access-control tests
-[] Persistence check
+[x] Automated behavioral tests
+[x] Concurrency/race test against real MySQL
+[x] Validation/access-control tests
+[x] Persistence check
 [] README/AI evidence
-[] Production build/start verification
 [] Demo video

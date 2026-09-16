@@ -88,21 +88,14 @@ export default function App() {
         loadBookings();
       }
     }
-    function handleFocus() {
-      loadSessions();
-      loadBookings();
-    }
-
     document.addEventListener("visibilitychange", handleVisibilityChange);
-    window.addEventListener("focus", handleFocus);
 
     return () => {
       document.removeEventListener("visibilitychange", handleVisibilityChange);
-      window.removeEventListener("focus", handleFocus);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [demoUserId]);
-  
+
   async function handleBook(sessionId: number) {
     setBookingInFlight(sessionId);
     try {
