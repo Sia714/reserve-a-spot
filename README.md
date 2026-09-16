@@ -3,8 +3,8 @@
 ## Milestone 1 — Foundation & booking backend — 2 hours
 
 [x] Project setup(45 mins)
-[] MySQL database
-[] Schema + migrations
+[x] MySQL database(+26)
+[] Schema + migrations(+23+)
 [] Seed four sessions + three users
 [] API structure
 [] Booking/cancellation business logic

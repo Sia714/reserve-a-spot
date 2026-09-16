@@ -2,9 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-  "dev": "tsx watch src/server.ts"
-},
+    "dev": "tsx watch src/server.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -13,6 +14,7 @@
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "mysql2": "^3.24.4",
     "sql2": "^0.0.1",
     "zod": "^4.6.5"
   },
